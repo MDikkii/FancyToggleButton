@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="#4085EE"
-    tools:context="com.nightonke.jellytogglebuttonexample.MainActivity">
+    tools:context="com.mdikkii.fancytogglebuttonexample.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -28,82 +28,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="18 Jellys"
-                android:textSize="20sp"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:textColor="@android:color/white"
-                />
-
-            <TableRow>
-
-                <include layout="@layout/jelly_layout_00" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_01" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_02" android:layout_height="50dp" android:layout_width="0dp" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <include layout="@layout/jelly_layout_03" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_04" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_05" android:layout_height="50dp" android:layout_width="0dp" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <include layout="@layout/jelly_layout_06" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_07" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_08" android:layout_height="50dp" android:layout_width="0dp" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <include layout="@layout/jelly_layout_09" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_10" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_11" android:layout_height="50dp" android:layout_width="0dp" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <include layout="@layout/jelly_layout_12" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_13" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_14" android:layout_height="50dp" android:layout_width="0dp" />
-
-            </TableRow>
-
-            <TableRow>
-
-                <include layout="@layout/jelly_layout_15" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_16" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_17" android:layout_height="50dp" android:layout_width="0dp" />
-
-            </TableRow>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="30 Easy Types"
-                android:textSize="20sp"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:textColor="@android:color/white"
-                />
-
-            <TableRow>
-
-                <include layout="@layout/jelly_layout_18" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_19" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_20" android:layout_height="50dp" android:layout_width="0dp" />
-
-            </TableRow>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:text="Color Everywhere"
                 android:textSize="20sp"
                 android:layout_marginStart="10dp"
@@ -111,29 +35,9 @@
                 android:textColor="@android:color/white"
                 />
 
-            <TableRow>
+            <TableRow android:background="@color/colorAccent">
 
-                <include layout="@layout/jelly_layout_21" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_22" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_23" android:layout_height="50dp" android:layout_width="0dp" />
-
-            </TableRow>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fonts"
-                android:textSize="20sp"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:textColor="@android:color/white"
-                />
-
-            <TableRow>
-
-                <include layout="@layout/jelly_layout_24" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_25" android:layout_height="50dp" android:layout_width="0dp" />
-                <include layout="@layout/jelly_layout_26" android:layout_height="50dp" android:layout_width="0dp" />
+                <include layout="@layout/jelly_layout_21" android:layout_height="wrap_content" android:layout_width="0dp"  />
 
             </TableRow>
 

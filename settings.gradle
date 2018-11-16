@@ -1,1 +1,1 @@
-include ':app', ':jellytogglebutton'
+include ':app', ':fancytogglebutton'

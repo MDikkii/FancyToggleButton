@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.nightonke.jellytogglebutton.JellyToggleButton
+    <com.mdikkii.fancytogglebutton.FancyToggleButton
         android:id="@+id/jtb_24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,7 +13,7 @@
         android:paddingStart="@dimen/jtb_start_padding"
         android:paddingRight="@dimen/jtb_end_padding"
         android:paddingEnd="@dimen/jtb_end_padding"
-        app:jtbJelly="active_tremble_body_slim_jim"
+        app:jtbJelly="itself"
         app:jtbLeftTextTypeface="fonts/Lato-Hairline.ttf"
         app:jtbRightTextTypeface="fonts/Lato-Hairline.ttf"
         app:jtbLeftTextColor="@android:color/black"
